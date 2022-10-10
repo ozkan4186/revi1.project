@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../button/Button';
 import CardStyle from './card.module.css'
 const Card = ({data}) => {
 //  const {id,name,job,image}=data
@@ -12,6 +13,8 @@ const Card = ({data}) => {
                 <h2>{name}</h2>
                 <h3>{job}</h3>
                 <p>{text}</p>
+                <Button/>
+
             </div>
 
         )
