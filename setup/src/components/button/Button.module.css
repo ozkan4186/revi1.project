@@ -1,0 +1,11 @@
+.click{
+    padding: 1rem;
+    background-color: blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.click:hover{
+    background-color: aqua;
+    transform: scale(360deg);
+}

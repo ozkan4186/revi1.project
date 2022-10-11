@@ -1,8 +1,11 @@
+import HeaderStyle from './Header.module.css'
+
+
 import React from 'react';
 const Header = () => {
   return (
     <div>
-        <h1>Our Revies</h1>
+        <h1 className={HeaderStyle.Header} >Our Revies</h1>
     </div>
   )
 }

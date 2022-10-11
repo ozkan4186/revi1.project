@@ -1,9 +1,11 @@
+import ButtonStyle from './Button.module.css'
+
 import React from 'react'
 
 const Button = () => {
   return (
     <div>
-        <button>Suprise me</button>
+        <button className={ButtonStyle.click} >Suprise me</button>
     </div>
   )
 }

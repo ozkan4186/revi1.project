@@ -7,12 +7,14 @@
 .container{
     width: 30rem;
     margin-top: 2rem;
-    background-color: rgb(244, 225, 248);
+    background-color:cornflowerblue;
     text-align: center;
     margin: 2rem auto;
     padding: 3rem;
     border-radius: 20px;
     box-shadow: 3px 3px 10px black;
+    font-size: large;
+    color: chartreuse;
 }
 
 .container img {
@@ -20,4 +22,7 @@
     height: 10rem;
     border-radius: 50%;
     object-fit: cover;
+}
+.container p{
+    color:crimson;
 }
