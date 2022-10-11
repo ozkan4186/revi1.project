@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Button from '../button/Button';
+
 import cartStyle from './card.module.css'
 
 import { FaChevronLeft ,
@@ -21,7 +21,7 @@ const checkNumber =(number)=>{
  if(number<0){
   return data.length -1
  }
- return number;
+ return number
 }
 
   const arttır=()=> {
@@ -40,16 +40,19 @@ const checkNumber =(number)=>{
     })
   }
   // ************
-  
-  
-  
-  
 
-  
 
-  
-    // console.log(name,id);
+ const suprise=()=>{
+  let x = Math.round(Math.random()*data.length)
+  console.log(x)
+  if(x == index){
+    x= index +1
+  }
+ setIndex( checkNumber(x))
 
+   }
+  
+  
 
   return (
     <div className='main'> 
@@ -58,12 +61,13 @@ const checkNumber =(number)=>{
             <h2>{name}</h2>
             <h3>{job}</h3>
             <p>{text}</p>
-            <span><FaChevronLeft className='sol' onClick={azalt} /> <FaChevronRight className='sag'  onClick={arttır}/></span>
-            <Button onClick={suprise} />
+            <span><FaChevronLeft className='sol' onClick={azalt} /> <FaChevronRight className='sag'  onClick={arttır}/></span> <br />
+            <button onClick={suprise}>Suprise Me</button>
+            
             </div>
            
     </div>
   )
 }
 
-export default Card
+export default Card;
