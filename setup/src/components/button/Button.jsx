@@ -3,9 +3,18 @@ import ButtonStyle from './Button.module.css'
 import React from 'react'
 
 const Button = () => {
+
+const suprise=()=>{
+  let x = Math.round(Math.random()*3)
+  console.log(x)
+}
+
+
+
+
   return (
     <div>
-        <button className={ButtonStyle.click} >Suprise me</button>
+        <button onClick={suprise}>Suprise me</button>
     </div>
   )
 }
