@@ -25,6 +25,7 @@
 }
 .container p{
     color:crimson;
+    
 }
 button {
     padding: 1rem;
@@ -32,10 +33,12 @@ button {
     border-radius: 10px;
     cursor: pointer;
     color: white;
+    border: none;
 
 }
 
 button:hover {
     background-color: aqua;
     transform: scale(360deg);
+    box-shadow: 5px 5px 5px chartreuse;
 }
