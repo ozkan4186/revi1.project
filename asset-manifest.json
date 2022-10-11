@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/revievs.project/static/css/main.feaa82d2.chunk.css",
+    "main.js": "/revievs.project/static/js/main.504d756e.chunk.js",
+    "main.js.map": "/revievs.project/static/js/main.504d756e.chunk.js.map",
+    "runtime-main.js": "/revievs.project/static/js/runtime-main.2aace4d8.js",
+    "runtime-main.js.map": "/revievs.project/static/js/runtime-main.2aace4d8.js.map",
+    "static/js/2.64741a43.chunk.js": "/revievs.project/static/js/2.64741a43.chunk.js",
+    "static/js/2.64741a43.chunk.js.map": "/revievs.project/static/js/2.64741a43.chunk.js.map",
+    "index.html": "/revievs.project/index.html",
+    "precache-manifest.5dab7bc97537b0a17118e7bae08f7078.js": "/revievs.project/precache-manifest.5dab7bc97537b0a17118e7bae08f7078.js",
+    "service-worker.js": "/revievs.project/service-worker.js",
+    "static/css/main.feaa82d2.chunk.css.map": "/revievs.project/static/css/main.feaa82d2.chunk.css.map",
+    "static/js/2.64741a43.chunk.js.LICENSE.txt": "/revievs.project/static/js/2.64741a43.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2aace4d8.js",
+    "static/js/2.64741a43.chunk.js",
+    "static/css/main.feaa82d2.chunk.css",
+    "static/js/main.504d756e.chunk.js"
+  ]
+}
