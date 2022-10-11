@@ -39,7 +39,7 @@ const checkNumber =(number)=>{
       return checkNumber(newIndex)
     })
   }
-  // ************
+
 
 
  const suprise=()=>{

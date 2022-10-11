@@ -26,3 +26,16 @@
 .container p{
     color:crimson;
 }
+button {
+    padding: 1rem;
+    background-color: blueviolet;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+
+}
+
+button:hover {
+    background-color: aqua;
+    transform: scale(360deg);
+}
